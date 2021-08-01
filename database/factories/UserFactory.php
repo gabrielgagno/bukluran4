@@ -23,7 +23,7 @@ class UserFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->name(),
+            'username' => $this->faker->userName(),
             'email' => $this->faker->unique()->safeEmail(),
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
@@ -41,6 +41,51 @@ class UserFactory extends Factory
         return $this->state(function (array $attributes) {
             return [
                 'email_verified_at' => null,
+            ];
+        });
+    }
+
+    public function faculty()
+    {
+        return $this->state(function (array $attributes) {
+            return [
+                'role_id' => 1,
+            ];
+        });
+    }
+
+    public function student()
+    {
+        return $this->state(function (array $attributes) {
+            return [
+                'role_id' => 2,
+            ];
+        });
+    }
+
+    public function organization()
+    {
+        return $this->state(function (array $attributes) {
+            return [
+                'role_id' => 3,
+            ];
+        });
+    }
+
+    public function admin()
+    {
+        return $this->state(function (array $attributes) {
+            return [
+                'role_id' => 4,
+            ];
+        });
+    }
+
+    public function developer()
+    {
+        return $this->state(function (array $attributes) {
+            return [
+                'role_id' => 5,
             ];
         });
     }

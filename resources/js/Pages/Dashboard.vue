@@ -10,10 +10,12 @@
 
 <script>
 import SidebarLayout from '@/Layouts/SidebarLayout';
+import BreezeAuthenticatedLayout from '@/Layouts/Authenticated';
 
 export default {
   components: {
     SidebarLayout,
+    BreezeAuthenticatedLayout,
   },
 }
 </script>

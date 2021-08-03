@@ -30,10 +30,12 @@
             aria-haspopup="true"
             aria-expanded="false"
           >
-            Profile Name
+            {{ $page.props.auth.user.username }}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Sign Out</a>
+            <inertia-link :href="route('logout')" method="post" as="button" type="button" class="dropdown-item px-4">
+              Sign Out
+            </inertia-link>
           </div>
         </li>
       </ul>
@@ -70,7 +72,7 @@
 </template>
 
 <script>
-import AuthenticatedSidebar from "@/Components/AuthenticatedSidebar";
+import AuthenticatedSidebar from "@/Components/Sidebars/AuthenticatedSidebar";
 
 export default {
   components: {
@@ -81,7 +83,6 @@ export default {
     return {
       showingNavigationDropdown: false,
       sidebarStatus: false, //inverse in big screens
-
     };
   },
 

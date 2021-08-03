@@ -39,49 +39,8 @@
       </ul>
     </nav>
     <!-- Sidebar -->
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-          <a href="#"> Bukluran 4</a>
-        </li>
-        <li>
-          <a href="#">Dashboard</a>
-        </li>
-        <li>
-          <a
-            href="#"
-            class="sidebar-dropdown-btn"
-            v-on:click="toggleSidebarDropdown()"
-            >Dropdown</a
-          >
-          <div class="sidebar-dropdown-container" :class="{ open: this.isDropdownOpen }">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-        </li>
-        <li>
-          <a href="#" class="sidebar-dropdown-btn">Dropdown 2</a>
-          <div class="sidebar-dropdown-container">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-          </div>
-        </li>
-        <li>
-          <a href="#">Events</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
+    <authenticated-sidebar />
+
     <!-- /#sidebar-wrapper -->
 
     <!-- Page Content -->
@@ -111,24 +70,18 @@
 </template>
 
 <script>
-import BreezeApplicationLogo from "@/Components/ApplicationLogo";
-import BreezeDropdown from "@/Components/Dropdown";
-import BreezeDropdownLink from "@/Components/DropdownLink";
-import BreezeNavLink from "@/Components/NavLink";
+import AuthenticatedSidebar from "@/Components/AuthenticatedSidebar";
 
 export default {
   components: {
-    BreezeApplicationLogo,
-    BreezeDropdown,
-    BreezeDropdownLink,
-    BreezeNavLink,
+    AuthenticatedSidebar,
   },
 
   data() {
     return {
       showingNavigationDropdown: false,
       sidebarStatus: false, //inverse in big screens
-      isDropdownOpen: false,
+
     };
   },
 

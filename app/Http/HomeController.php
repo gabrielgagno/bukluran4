@@ -15,4 +15,11 @@ class HomeController extends Controller
             'role' => $roleName,
         ]);
     }
+
+    public function guest()
+    {
+        return Inertia::render('Welcome', [
+            'role' => $roleName,
+        ]);
+    }
 }

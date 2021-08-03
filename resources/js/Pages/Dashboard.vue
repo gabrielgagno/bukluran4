@@ -1,25 +1,19 @@
 <template>
-  <breeze-authenticated-layout>
-    <template #header>
-      <h2 class="h4 font-weight-bold">
-        Dashboard
-      </h2>
-    </template>
-
+  <sidebar-layout>
     <div class="card my-4 shadow-sm">
       <div class="card-body">
         You're logged in!
       </div>
     </div>
-  </breeze-authenticated-layout>
+  </sidebar-layout>
 </template>
 
 <script>
-import BreezeAuthenticatedLayout from '@/Layouts/Authenticated'
+import SidebarLayout from '@/Layouts/SidebarLayout';
 
 export default {
   components: {
-    BreezeAuthenticatedLayout,
+    SidebarLayout,
   },
 }
 </script>

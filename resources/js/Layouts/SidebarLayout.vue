@@ -18,9 +18,23 @@
         id="alternate-branding"
         >Bukluran 4</a
       >
+      <span class="navbar-text">Dashboard</span>
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link">Sign Out</a>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Profile Name
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Sign Out</a>
+          </div>
         </li>
       </ul>
     </nav>
@@ -34,10 +48,25 @@
           <a href="#">Dashboard</a>
         </li>
         <li>
-          <a href="#">Shortcuts</a>
+          <a
+            href="#"
+            class="sidebar-dropdown-btn"
+            v-on:click="toggleSidebarDropdown()"
+            >Dropdown</a
+          >
+          <div class="sidebar-dropdown-container" :class="{ open: this.isDropdownOpen }">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
-          <a href="#">Overview</a>
+          <a href="#" class="sidebar-dropdown-btn">Dropdown 2</a>
+          <div class="sidebar-dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </li>
         <li>
           <a href="#">Events</a>
@@ -72,13 +101,6 @@
               Make sure to keep all page content within the
               <code>#page-content-wrapper</code>.
             </p>
-            <!--button
-              class="btn btn-primary"
-              id="menu-toggle"
-              v-on:click="toggleSidebar()"
-            >
-              Toggle Menu
-            </button-->
           </div>
         </div>
       </div>
@@ -106,12 +128,17 @@ export default {
     return {
       showingNavigationDropdown: false,
       sidebarStatus: false, //inverse in big screens
+      isDropdownOpen: false,
     };
   },
 
   methods: {
     toggleSidebar: function () {
       this.sidebarStatus = !this.sidebarStatus;
+    },
+
+    toggleSidebarDropdown: function () {
+      this.isDropdownOpen = !this.isDropdownOpen;
     },
   },
 };
@@ -226,6 +253,15 @@ body {
 .sidebar-nav > .sidebar-brand a:hover {
   color: #fff;
   background: none;
+}
+
+.sidebar-dropdown-container {
+  display: none;
+  padding-left: 8px;
+}
+
+.sidebar-dropdown-container.open {
+  display: block;
 }
 
 @media (min-width: 768px) {

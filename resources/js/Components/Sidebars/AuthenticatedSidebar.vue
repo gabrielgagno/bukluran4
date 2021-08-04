@@ -1,9 +1,9 @@
 <template>
   <nav id="sidebar-wrapper">
+    <div class="sidebar-brand">
+      <a href="#">Bukluran 4</a>
+    </div>
     <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a href="#"> Bukluran 4</a>
-      </li>
       <li>
         <a href="#">Dashboard</a>
       </li>
@@ -47,7 +47,13 @@
   </nav>
 </template>
 <script>
+
+import LoginBox from '@/Components/LoginBox';
+
 export default {
+  components: {
+      LoginBox,
+  },
   data() {
     return {
       isDropdownOpen: false,

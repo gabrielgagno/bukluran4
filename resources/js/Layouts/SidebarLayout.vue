@@ -48,22 +48,7 @@
     <!-- Page Content -->
     <main id="page-content-wrapper">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1>Simple Sidebar</h1>
-            <p>
-              This template has a responsive menu toggling system. The menu will
-              appear collapsed on smaller screens, and will appear non-collapsed
-              on larger screens. When toggled using the button below, the menu
-              will appear/disappear. On small screens, the page content will be
-              pushed off canvas.
-            </p>
-            <p>
-              Make sure to keep all page content within the
-              <code>#page-content-wrapper</code>.
-            </p>
-          </div>
-        </div>
+        <slot />
       </div>
     </main>
     <!-- /#page-content-wrapper -->
@@ -131,6 +116,8 @@ body {
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -164,7 +151,7 @@ body {
 /* Sidebar Styles */
 
 .sidebar-nav {
-  position: absolute;
+  /*position: absolute;*/
   top: 0;
   width: 250px;
   margin: 0;
@@ -194,7 +181,7 @@ body {
   text-decoration: none;
 }
 
-.sidebar-nav > .sidebar-brand {
+/*.sidebar-nav > .sidebar-brand {
   height: 65px;
   font-size: 18px;
   line-height: 60px;
@@ -207,6 +194,24 @@ body {
 .sidebar-nav > .sidebar-brand a:hover {
   color: #fff;
   background: none;
+}*/
+
+.sidebar-brand {
+  text-indent: 20px;
+  font-size: 18px;
+  width: 250px;
+  background-color:#7D3738;
+  line-height: 55px;
+}
+
+.sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+  text-decoration: none;
 }
 
 .sidebar-dropdown-container {

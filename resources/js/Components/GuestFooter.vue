@@ -15,7 +15,8 @@
           />
           <div class="d-flex flex-column">
             <span>Office of</span>
-            <span>Student Projects and Activities</span>
+            <span class="font-weight-bold">Student Projects and Activities</span>
+            <span>University of the Philippines Diliman</span>
           </div>
         </div>
       </section>

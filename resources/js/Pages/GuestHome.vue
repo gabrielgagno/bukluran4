@@ -41,6 +41,7 @@
     </div>
     <div class="container mb-2">
       <div class="row">
+        <!-- TODO remove right border in mobile -->
         <div class="col-md-4 border-right login-container style:">
           <h2 class="h3">Login</h2>
           <login-box />
@@ -48,6 +49,7 @@
         <div class="col-md-8 announcements-container">
           <h2 class="h3">Announcements</h2>
           <div>
+            <!-- TODO replace with dynamic elements -->
             <announcements-card />
             <announcements-card />
           </div>

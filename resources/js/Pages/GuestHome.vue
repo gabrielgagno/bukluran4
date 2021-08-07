@@ -9,6 +9,7 @@
       centerbox-container
     "
   >
+    <!-- pagename-container -->
     <div
       class="
         d-flex
@@ -18,6 +19,7 @@
         pagename-container
       "
     >
+      <!-- title-container -->
       <div
         class="
           d-flex
@@ -34,57 +36,64 @@
           height="100"
           width="100"
         />
-        <h1>Bukluran 4</h1>
+        <h1 class="mb-4">Bukluran 4</h1>
       </div>
     </div>
-    <div class="container">
+    <div class="container mb-2">
       <div class="row">
-        <div class="col-md-4 border-right login-container">
+        <div class="col-md-4 border-right login-container style:">
           <h2 class="h3">Login</h2>
           <login-box />
         </div>
         <div class="col-md-8 announcements-container">
-            <h2 class="h3">Announcements</h2>
+          <h2 class="h3">Announcements</h2>
+          <div>
+            <announcements-card />
+            <announcements-card />
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <guest-footer />
 </template>
 
 <script>
 import LoginBox from "@/Components/LoginBox";
+import GuestFooter from "@/Components/GuestFooter";
+import AnnouncementsCard from "@/Components/AnnouncementsCard";
 
 export default {
   components: {
     LoginBox,
+    GuestFooter,
+    AnnouncementsCard,
   },
   props: {
     canLogin: Boolean,
     canRegister: Boolean,
-    laravelVersion: String,
-    phpVersion: String,
   },
 };
 </script>
 
 <style>
-.center-container {
-  background-color: red;
-}
 
 .centerbox-container {
-  background-color: blue;
-  margin-top: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
   width: 100%;
   height: 60%;
   max-width: 80vw;
 }
 
-.login-container {
-  background-color: green;
+.announcements-container > div {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 40vh;
+  min-height: 40vh;
 }
 
-.announcements-container {
-  background-color: chartreuse;
+.border-right {
+  border-right: 1px dashed rgb(46, 46, 46);
 }
 </style>

@@ -1,4 +1,9 @@
 <template>
+  <breeze-validation-errors />
+
+  <div v-if="status" class="alert alert-success mb-3 rounded-0" role="alert">
+    {{ status }}
+  </div>
   <form @submit.prevent="submit">
     <div class="form-group">
       <label for="email">E-mail</label>
@@ -29,7 +34,21 @@
   </form>
 </template>
 <script>
+import BreezeValidationErrors from '@/Components/ValidationErrors';
+
 export default {
+  components: {
+    BreezeValidationErrors,
+  },
+  computed: {
+    errors() {
+      return this.$page.props.errors;
+    },
+
+    hasErrors() {
+      return Object.keys(this.errors).length > 0;
+    },
+  },
   props: {
     canResetPassword: Boolean,
     status: String,

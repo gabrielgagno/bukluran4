@@ -19108,11 +19108,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Components_LoginBox__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Components/LoginBox */ "./resources/js/Components/LoginBox.vue");
+/* harmony import */ var _Components_Sidebars_DropdownOption__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Components/Sidebars/DropdownOption */ "./resources/js/Components/Sidebars/DropdownOption.vue");
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    LoginBox: _Components_LoginBox__WEBPACK_IMPORTED_MODULE_0__.default
+    DropdownOption: _Components_Sidebars_DropdownOption__WEBPACK_IMPORTED_MODULE_0__.default
   },
   data: function data() {
     return {
@@ -19122,6 +19122,36 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     toggleSidebarDropdown: function toggleSidebarDropdown() {
       this.isDropdownOpen = !this.isDropdownOpen;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=script&lang=js":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  props: {
+    dropdownName: String,
+    subMenuObjects: Object
+  },
+  data: function data() {
+    return {
+      isOpen: false
+    };
+  },
+  methods: {
+    toggleSidebarDropdown: function toggleSidebarDropdown() {
+      this.isOpen = !this.isOpen;
     }
   }
 });
@@ -19859,7 +19889,7 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-3a98b9d0");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<footer class=\"guest-footer text-white\" data-v-3a98b9d0><!-- Grid container --><div class=\"container-fluid p-4\" data-v-3a98b9d0><!-- Section: Text --><section class=\"mb-4\" data-v-3a98b9d0><div class=\"d-flex flex-row align-items-center\" data-v-3a98b9d0><img src=\"img/up-logo.png\" alt=\"University of the Philippines seal\" class=\"mr-2\" height=\"80\" width=\"80\" data-v-3a98b9d0><div class=\"d-flex flex-column\" data-v-3a98b9d0><span data-v-3a98b9d0>Office of</span><span class=\"font-weight-bold\" data-v-3a98b9d0>Student Projects and Activities</span><span data-v-3a98b9d0>University of the Philippines Diliman</span></div></div></section><!-- Section: Text --><!-- Section: Links --><section class=\"\" data-v-3a98b9d0><!--Grid row--><div class=\"row\" data-v-3a98b9d0><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--></div><!--Grid row--></section><!-- Section: Links --></div><!-- Grid container --><!-- UP System Links and Copyright --><div class=\"d-flex flex-row justify-content-around p-3\" style=\"background-color:rgba(0, 0, 0, 0.2);\" data-v-3a98b9d0><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>University of the Philippines System</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Diliman</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Los Baños</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Manila</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Baguio</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Visayas</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Mindanao</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Cebu</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Open University</a><span data-v-3a98b9d0>© 2020 <a class=\"text-white\" href=\"https://ospa.upd.edu.ph/\" target=\"_blank\" data-v-3a98b9d0>Office of Student Projects and Activities</a></span></div><!-- UP System Links and Copyright --></footer>", 1);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<footer class=\"guest-footer text-white\" data-v-3a98b9d0><!-- Grid container --><div class=\"container-fluid p-4\" data-v-3a98b9d0><!-- Section: Text --><section class=\"mb-4\" data-v-3a98b9d0><div class=\"d-flex flex-row align-items-center\" data-v-3a98b9d0><img src=\"img/OSPA_Logo.png\" alt=\"OSPA Logo\" class=\"mr-2\" height=\"80\" data-v-3a98b9d0><div class=\"d-flex flex-column\" data-v-3a98b9d0><span data-v-3a98b9d0>Office of</span><span class=\"font-weight-bold\" data-v-3a98b9d0>Student Projects and Activities</span><span data-v-3a98b9d0>University of the Philippines Diliman</span></div></div></section><!-- Section: Text --><!-- Section: Links --><section class=\"\" data-v-3a98b9d0><!--Grid row--><div class=\"row\" data-v-3a98b9d0><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--></div><!--Grid row--></section><!-- Section: Links --></div><!-- Grid container --><!-- UP System Links and Copyright --><div class=\"d-flex flex-row justify-content-around p-3\" style=\"background-color:rgba(0, 0, 0, 0.2);\" data-v-3a98b9d0><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>University of the Philippines System</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Diliman</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Los Baños</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Manila</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Baguio</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Visayas</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Mindanao</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Cebu</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Open University</a><span data-v-3a98b9d0>© 2020 <a class=\"text-white\" href=\"https://ospa.upd.edu.ph/\" target=\"_blank\" data-v-3a98b9d0>Office of Student Projects and Activities</a></span></div><!-- UP System Links and Copyright --></footer>", 1);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
@@ -20080,92 +20110,92 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#"
-}, "Link 1", -1
-/* HOISTED */
-);
-
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#"
-}, "Link 2", -1
-/* HOISTED */
-);
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#"
-}, "Link 3", -1
-/* HOISTED */
-);
-
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#"
-}, "Link 1", -1
-/* HOISTED */
-);
-
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#"
-}, "Link 2", -1
-/* HOISTED */
-);
-
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: "#"
-}, "Link 3", -1
-/* HOISTED */
-);
-
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: "#"
 }, "Events")], -1
 /* HOISTED */
 );
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: "#"
 }, "About")], -1
 /* HOISTED */
 );
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: "#"
 }, "Services")], -1
 /* HOISTED */
 );
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: "#"
 }, "Contact")], -1
 /* HOISTED */
 );
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("nav", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  var _component_dropdown_option = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("dropdown-option");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("nav", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_dropdown_option, {
+    "dropdown-name": "Sample"
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_dropdown_option, {
+    "dropdown-name": "Sample 2"
+  })]), _hoisted_4, _hoisted_5, _hoisted_6, _hoisted_7])]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=template&id=4eed6103":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=template&id=4eed6103 ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "#"
+}, "Link 1", -1
+/* HOISTED */
+);
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "#"
+}, "Link 2", -1
+/* HOISTED */
+);
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "#"
+}, "Link 3", -1
+/* HOISTED */
+);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
     href: "#",
     "class": "sidebar-dropdown-btn",
     onClick: _cache[1] || (_cache[1] = function ($event) {
       return $options.toggleSidebarDropdown();
     })
-  }, "Dropdown"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(this.dropdownName), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
     "class": ["sidebar-dropdown-container", {
-      open: this.isDropdownOpen
+      open: this.isOpen
     }]
-  }, [_hoisted_4, _hoisted_5, _hoisted_6], 2
+  }, [_hoisted_1, _hoisted_2, _hoisted_3], 2
   /* CLASS */
-  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-    href: "#",
-    "class": "sidebar-dropdown-btn",
-    onClick: _cache[2] || (_cache[2] = function ($event) {
-      return $options.toggleSidebarDropdown();
-    })
-  }, "Dropdown 2"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-    "class": ["sidebar-dropdown-container", {
-      open: this.isDropdownOpen
-    }]
-  }, [_hoisted_7, _hoisted_8, _hoisted_9], 2
-  /* CLASS */
-  )]), _hoisted_10, _hoisted_11, _hoisted_12, _hoisted_13])]);
+  )], 64
+  /* STABLE_FRAGMENT */
+  );
 }
 
 /***/ }),
@@ -61500,6 +61530,32 @@ _AuthenticatedSidebar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.d
 
 /***/ }),
 
+/***/ "./resources/js/Components/Sidebars/DropdownOption.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/Components/Sidebars/DropdownOption.vue ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _DropdownOption_vue_vue_type_template_id_4eed6103__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DropdownOption.vue?vue&type=template&id=4eed6103 */ "./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=template&id=4eed6103");
+/* harmony import */ var _DropdownOption_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DropdownOption.vue?vue&type=script&lang=js */ "./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=script&lang=js");
+
+
+
+_DropdownOption_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.render = _DropdownOption_vue_vue_type_template_id_4eed6103__WEBPACK_IMPORTED_MODULE_0__.render
+/* hot reload */
+if (false) {}
+
+_DropdownOption_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__file = "resources/js/Components/Sidebars/DropdownOption.vue"
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_DropdownOption_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default);
+
+/***/ }),
+
 /***/ "./resources/js/Components/ValidationErrors.vue":
 /*!******************************************************!*\
   !*** ./resources/js/Components/ValidationErrors.vue ***!
@@ -61988,6 +62044,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=script&lang=js":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=script&lang=js ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_DropdownOption_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_DropdownOption_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./DropdownOption.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Components/ValidationErrors.vue?vue&type=script&lang=js":
 /*!******************************************************************************!*\
   !*** ./resources/js/Components/ValidationErrors.vue?vue&type=script&lang=js ***!
@@ -62384,6 +62456,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AuthenticatedSidebar_vue_vue_type_template_id_28be1bec__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_AuthenticatedSidebar_vue_vue_type_template_id_28be1bec__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./AuthenticatedSidebar.vue?vue&type=template&id=28be1bec */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/Sidebars/AuthenticatedSidebar.vue?vue&type=template&id=28be1bec");
+
+
+/***/ }),
+
+/***/ "./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=template&id=4eed6103":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=template&id=4eed6103 ***!
+  \*******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_DropdownOption_vue_vue_type_template_id_4eed6103__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_DropdownOption_vue_vue_type_template_id_4eed6103__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./DropdownOption.vue?vue&type=template&id=4eed6103 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/Sidebars/DropdownOption.vue?vue&type=template&id=4eed6103");
 
 
 /***/ }),

@@ -7,11 +7,10 @@
       <section class="mb-4">
         <div class="d-flex flex-row align-items-center">
           <img
-            src="img/up-logo.png"
-            alt="University of the Philippines seal"
+            src="img/OSPA_Logo.png"
+            alt="OSPA Logo"
             class="mr-2"
             height="80"
-            width="80"
           />
           <div class="d-flex flex-column">
             <span>Office of</span>

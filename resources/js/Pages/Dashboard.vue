@@ -2,7 +2,7 @@
   <sidebar-layout>
     <div class="card my-4 shadow-sm">
       <div class="card-body">
-        You're logged in!
+        Welcome!
       </div>
     </div>
   </sidebar-layout>

@@ -1,6 +1,5 @@
 <template>
-  <div id="wrapper" :class="{ toggled: this.sidebarStatus }">
-    <nav class="navbar navbar-expand-lg navbar-dark" id="top-nav">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark" id="top-nav">
       <ul class="navbar-nav">
         <li class="nav-item">
           <button
@@ -14,7 +13,6 @@
       </ul>
       <a
         class="navbar-brand"
-        :class="{ toggled: !this.sidebarStatus }"
         id="alternate-branding"
         >Bukluran 4</a
       >
@@ -40,6 +38,7 @@
         </li>
       </ul>
     </nav>
+  <div id="wrapper" :class="{ toggled: this.sidebarStatus }">
     <!-- Sidebar -->
     <authenticated-sidebar />
 
@@ -106,7 +105,6 @@ body {
   z-index: 1000;
   position: fixed;
   left: 250px;
-  top: 0px;
   width: 0;
   height: 100%;
   margin-left: -250px;

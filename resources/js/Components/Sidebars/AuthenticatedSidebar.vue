@@ -1,8 +1,5 @@
 <template>
   <nav id="sidebar-wrapper">
-    <div class="sidebar-brand">
-      <a href="#">Bukluran 4</a>
-    </div>
     <ul class="sidebar-nav">
       <li>
         <a href="#">Dashboard</a>

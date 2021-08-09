@@ -20,4 +20,9 @@ class Student extends Model
     {
         return $this->belongsTo(College::class);
     }
+
+    public function user()
+    {
+        return $this->morphOne(User::class, 'userable');
+    }
 }

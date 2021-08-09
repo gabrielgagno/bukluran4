@@ -25,7 +25,7 @@ class UpdateStudentsAddCollege extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
+        Schema::table('students', function (Blueprint $table) {
             $table->dropColumn('college_id');
         });
     }

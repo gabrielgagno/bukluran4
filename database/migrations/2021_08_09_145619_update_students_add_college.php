@@ -14,7 +14,7 @@ class UpdateStudentsAddCollege extends Migration
     public function up()
     {
         Schema::table('students', function (Blueprint $table) {
-            $table->integer('college_id')->references('id')->on('colleges')->after('contact_num');
+            $table->foreignId('college_id')->constrained()->after('contact_num');
         });
     }
 
@@ -26,7 +26,7 @@ class UpdateStudentsAddCollege extends Migration
     public function down()
     {
         Schema::table('students', function (Blueprint $table) {
-            $table->dropColumn('college_id');
+            $table->dropForeign(['college_id']);
         });
     }
 }

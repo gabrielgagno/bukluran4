@@ -14,7 +14,7 @@ class UpdateUsersTableAddRolesPermissions extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->integer('role_id')->references('id')->on('roles');
+            $table->foreignId('role_id')->constrained()->before('created_at');
         });
     }
 
@@ -26,7 +26,7 @@ class UpdateUsersTableAddRolesPermissions extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('role_id');
+            $table->dropForeign(['role_id']);
         });
     }
 }

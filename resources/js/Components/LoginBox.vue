@@ -6,15 +6,15 @@
   </div>
   <form @submit.prevent="submit">
     <div class="form-group">
-      <label for="email">E-mail</label>
+      <label for="username">Username</label>
       <input
-        type="email"
-        name="email"
-        id="email"
+        type="text"
+        name="username"
+        id="username"
         class="form-control"
-        placeholder="Email"
+        placeholder="Username"
         autofocus
-        v-model="form.email"
+        v-model="form.username"
       />
     </div>
     <div class="form-group">
@@ -57,7 +57,7 @@ export default {
   data() {
     return {
       form: this.$inertia.form({
-        email: "",
+        username: "",
         password: "",
         remember: false,
       }),

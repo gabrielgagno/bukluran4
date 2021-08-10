@@ -28,7 +28,7 @@
             aria-haspopup="true"
             aria-expanded="false"
           >
-            {{ $page.props.auth.user.username }}
+            Hello, {{ $page.props.auth.userable.first_name }}!
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <inertia-link :href="route('logout')" method="post" as="button" type="button" class="dropdown-item px-4">

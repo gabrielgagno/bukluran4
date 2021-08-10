@@ -24,6 +24,11 @@ class Faculty extends Model
         return $this->belongsTo(College::class);
     }
 
+    public function office()
+    {
+        return $this->belongsTo(Office::class);
+    }
+
     public function user()
     {
         return $this->morphOne(User::class, 'userable');

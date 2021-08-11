@@ -28,13 +28,23 @@
         v-model="form.password"
       />
     </div>
+    <div class="form-check">
+      <input
+        type="checkbox"
+        id="remember_me"
+        name="remember"
+        v-model="form.remember"
+        class="form-check-input"
+      />
+      <label class="form-check-label" for="remember_me"> Remember Me </label>
+    </div>
     <div class="form-group">
       <button type="submit" class="btn btn-primary">Login</button>
     </div>
   </form>
 </template>
 <script>
-import BreezeValidationErrors from '@/Components/ValidationErrors';
+import BreezeValidationErrors from "@/Components/ValidationErrors";
 
 export default {
   components: {

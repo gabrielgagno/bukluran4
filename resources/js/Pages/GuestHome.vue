@@ -44,7 +44,20 @@
         <!-- TODO remove right border in mobile -->
         <div class="col-md-4 border-right login-container style:">
           <h2 class="h3">Login</h2>
-          <login-box />
+          <login-box canResetPassword="this.canResetPassword" />
+          <inertia-link
+            v-if="canResetPassword"
+            :href="route('password.request')"
+            class="text-muted mr-3"
+          >
+            Forgot your password?
+          </inertia-link>
+          <inertia-link
+            v-if="canRegister"
+            :href="route('register')"
+            class="text-muted mr-3"
+            >Create an Account</inertia-link
+          >
         </div>
         <div class="col-md-8 announcements-container">
           <h2 class="h3">Announcements</h2>
@@ -74,12 +87,12 @@ export default {
   props: {
     canLogin: Boolean,
     canRegister: Boolean,
+    canResetPassword: Boolean,
   },
 };
 </script>
 
 <style>
-
 .centerbox-container {
   margin-top: 5vh;
   margin-bottom: 10vh;

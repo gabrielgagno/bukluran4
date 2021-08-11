@@ -34,12 +34,15 @@ class HandleInertiaRequests extends Middleware
     public function share(Request $request)
     {
         $userable = null;
+        $userableName = null;
         if($request->user()) {
             $userable = $request->user()->userable;
+            $userableName = explode("\\", $request->user()->userable_type)[2];
         }
         return array_merge(parent::share($request), [
             'auth' => [
                 'user' => $request->user(),
+                'userable_name' => $userableName,
                 'userable' => $userable,
             ],
         ]);

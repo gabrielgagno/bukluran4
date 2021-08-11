@@ -20483,6 +20483,7 @@ var _hoisted_8 = {
   "class": "nav-item dropdown"
 };
 var _hoisted_9 = {
+  key: 0,
   "class": "nav-link dropdown-toggle",
   href: "#",
   id: "navbarDropdown",
@@ -20492,16 +20493,26 @@ var _hoisted_9 = {
   "aria-expanded": "false"
 };
 var _hoisted_10 = {
+  key: 1,
+  "class": "nav-link dropdown-toggle",
+  href: "#",
+  id: "navbarDropdown",
+  role: "button",
+  "data-toggle": "dropdown",
+  "aria-haspopup": "true",
+  "aria-expanded": "false"
+};
+var _hoisted_11 = {
   "class": "dropdown-menu",
   "aria-labelledby": "navbarDropdown"
 };
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Sign Out ");
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Sign Out ");
 
-var _hoisted_12 = {
+var _hoisted_13 = {
   id: "page-content-wrapper"
 };
-var _hoisted_13 = {
+var _hoisted_14 = {
   "class": "container-fluid"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -20515,9 +20526,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[1] || (_cache[1] = function ($event) {
       return $options.toggleSidebar();
     })
-  }, [_hoisted_4])])]), _hoisted_5, _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", _hoisted_9, " Hello, " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.auth.userable.first_name) + "! ", 1
+  }, [_hoisted_4])])]), _hoisted_5, _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_8, [_ctx.$page.props.auth.userable_name == 'Organization' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("a", _hoisted_9, " Hello, " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.auth.userable.short_name) + "! ", 1
   /* TEXT */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
+  )) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("a", _hoisted_10, " Hello, " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.auth.userable.first_name) + "! ", 1
+  /* TEXT */
+  )), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
     href: _ctx.route('logout'),
     method: "post",
     as: "button",
@@ -20525,7 +20538,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "dropdown-item px-4"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_11];
+      return [_hoisted_12];
     }),
     _: 1
     /* STABLE */
@@ -20537,7 +20550,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": {
       toggled: this.sidebarStatus
     }
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sidebar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_authenticated_sidebar), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" /#sidebar-wrapper "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page Content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("main", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" /#page-content-wrapper ")], 2
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Sidebar "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_authenticated_sidebar), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" /#sidebar-wrapper "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page Content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("main", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" /#page-content-wrapper ")], 2
   /* CLASS */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" /#wrapper ")], 64
   /* STABLE_FRAGMENT */

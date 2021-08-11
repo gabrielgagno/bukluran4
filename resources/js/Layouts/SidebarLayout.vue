@@ -19,7 +19,18 @@
       <span class="navbar-text">Dashboard</span>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
-          <a
+          <a v-if="$page.props.auth.userable_name == 'Organization'"
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Hello, {{ $page.props.auth.userable.short_name }}!
+          </a>
+          <a v-else
             class="nav-link dropdown-toggle"
             href="#"
             id="navbarDropdown"

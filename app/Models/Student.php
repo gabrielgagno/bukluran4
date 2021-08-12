@@ -25,4 +25,9 @@ class Student extends Model
     {
         return $this->morphOne(User::class, 'userable');
     }
+
+    public function organizations()
+    {
+        return $this->belongsToMany(Organization::class)->withPivot(['is_officer', 'officer_position']);
+    }
 }

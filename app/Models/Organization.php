@@ -21,6 +21,11 @@ class Organization extends Model
 
     public function orgType()
     {
-        $this->belongsTo(OrgType::class);
+        return $this->belongsTo(OrgType::class);
+    }
+
+    public function students()
+    {
+        return $this->belongsToMany(Student::class)->withPivot(['is_officer', 'officer_position']);
     }
 }

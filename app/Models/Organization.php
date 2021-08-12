@@ -28,4 +28,9 @@ class Organization extends Model
     {
         return $this->belongsToMany(Student::class)->withPivot(['is_officer', 'officer_position']);
     }
+
+    public function advisors()
+    {
+        return $this->belongsToMany(Faculty::class);
+    }
 }

@@ -25,6 +25,8 @@ class UpdateOrganizationsTableAddOrgType extends Migration
      */
     public function down()
     {
-        $table->dropForeign(['org_type_id']);
+        Schema::table('organizations', function (Blueprint $table) {
+            $table->dropForeign(['org_type_id']);
+        });
     }
 }

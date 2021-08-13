@@ -1,50 +1,10 @@
 <template>
-  <div
-    class="
-      container
-      d-flex
-      flex-column
-      align-items-center
-      justify-content-center
-      centerbox-container
-    "
-  >
-    <!-- pagename-container -->
-    <div
-      class="
-        d-flex
-        flex-column
-        align-items-center
-        justify-content-center
-        pagename-container
-      "
-    >
-      <!-- title-container -->
-      <div
-        class="
-          d-flex
-          flex-column
-          align-items-center
-          justify-content-center
-          title-container
-        "
-      >
-        <img
-          src="img/up-logo.png"
-          alt="University of the Philippines seal"
-          class="mt-4 mb-4"
-          height="100"
-          width="100"
-        />
-        <h1 class="mb-4">Bukluran 4</h1>
-      </div>
-    </div>
-    <div class="container mb-2">
+  <div class="container mb-2">
       <div class="row">
         <!-- TODO remove right border in mobile -->
         <div class="col-md-4 border-right login-container style:">
           <h2 class="h3">Login</h2>
-          <login-box canResetPassword="this.canResetPassword" />
+          <login-box :canResetPassword="this.canResetPassword" />
           <inertia-link
             v-if="canResetPassword"
             :href="route('password.request')"
@@ -69,19 +29,20 @@
         </div>
       </div>
     </div>
-  </div>
-  <guest-footer />
 </template>
 
 <script>
 import LoginBox from "@/Components/LoginBox";
 import GuestFooter from "@/Components/GuestFooter";
+import GuestLayout from '@/Layouts/GuestLayout';
 import AnnouncementsCard from "@/Components/AnnouncementsCard";
 
 export default {
+  layout: GuestLayout,
   components: {
     LoginBox,
     GuestFooter,
+    GuestLayout,
     AnnouncementsCard,
   },
   props: {

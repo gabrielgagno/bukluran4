@@ -37,7 +37,7 @@ class HandleInertiaRequests extends Middleware
         $userableName = null;
         if($request->user()) {
             $userable = $request->user()->userable;
-            $userableName = explode("\\", $request->user()->userable_type)[2];
+            $userableName = is_null($request->user()->userable) ? null : explode("\\", $request->user()->userable_type)[2];
         }
         return array_merge(parent::share($request), [
             'auth' => [

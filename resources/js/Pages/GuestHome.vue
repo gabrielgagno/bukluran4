@@ -54,13 +54,6 @@ export default {
 </script>
 
 <style>
-.centerbox-container {
-  margin-top: 5vh;
-  margin-bottom: 10vh;
-  width: 100%;
-  height: 60%;
-  max-width: 80vw;
-}
 
 .announcements-container > div {
   overflow-x: hidden;

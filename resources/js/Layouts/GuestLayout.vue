@@ -58,7 +58,7 @@ export default {
 <style>
 .centerbox-container {
   margin-top: 5vh;
-  margin-bottom: 10vh;
+  margin-bottom: 13vh;
   width: 100%;
   height: 60%;
   max-width: 80vw;

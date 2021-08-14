@@ -1,6 +1,7 @@
 <template>
   <div class="card shadow-sm w-75 px-3">
     <div class="card-body">
+      <registration-role-select />
       <breeze-validation-errors class="mb-3" />
 
       <form @submit.prevent="submit">
@@ -101,6 +102,7 @@ import GuestLayout from "@/Layouts/GuestLayout";
 import BreezeInput from "@/Components/Input";
 import BreezeLabel from "@/Components/Label";
 import BreezeValidationErrors from "@/Components/ValidationErrors";
+import RegistrationRoleSelect from '@/Components/RegistrationRoleSelect';
 
 export default {
   layout: GuestLayout,
@@ -111,6 +113,7 @@ export default {
     BreezeInput,
     BreezeLabel,
     BreezeValidationErrors,
+    RegistrationRoleSelect,
   },
 
   props: {

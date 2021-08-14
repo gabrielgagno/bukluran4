@@ -1,10 +1,29 @@
 <template>
   <div class="card shadow-sm w-75 px-3">
     <div class="card-body">
-      <registration-role-select />
+      <!-- select role -->
+      <div
+        class="d-flex flex-row justify-content-center text-align-center"
+        v-if="regStage == 0"
+      >
+        <span class="h2">I am a/n... </span>
+        <select name="sel_role" class="form-control form-control-lg w-25" v-model="selectedRole" v-on:change="moveForm('f')">
+          <option value="student">Student</option>
+          <option value="org">Organization</option>
+          <option value="faculty">Faculty</option>
+        </select>
+      </div>
+      <!-- component for search unique code -->
+      <div
+        class="d-flex flex-row justify-content-center text-align-center"
+        v-if="regStage == 1"
+      >
+        <span class="h2">Please enter your {{ stageOneCaption }}: </span>
+      </div>
+      <!-- reg form -->
       <breeze-validation-errors class="mb-3" />
 
-      <form @submit.prevent="submit">
+      <form @submit.prevent="submit" v-if="regStage == 2">
         <div class="form-group">
           <breeze-label for="role" value="Role" />
           <select class="form-control form-control-md" v-model="form.role">
@@ -102,7 +121,6 @@ import GuestLayout from "@/Layouts/GuestLayout";
 import BreezeInput from "@/Components/Input";
 import BreezeLabel from "@/Components/Label";
 import BreezeValidationErrors from "@/Components/ValidationErrors";
-import RegistrationRoleSelect from '@/Components/RegistrationRoleSelect';
 
 export default {
   layout: GuestLayout,
@@ -113,7 +131,6 @@ export default {
     BreezeInput,
     BreezeLabel,
     BreezeValidationErrors,
-    RegistrationRoleSelect,
   },
 
   props: {
@@ -122,6 +139,8 @@ export default {
 
   data() {
     return {
+      regStage: 0,
+      selectedRole: null,
       form: this.$inertia.form({
         role: null,
         username: "",
@@ -132,8 +151,36 @@ export default {
       }),
     };
   },
+  computed: {
+    stageOneCaption: function () {
+      var caption = null;
+      switch(this.selectedRole) {
+        case 'student':
+          caption = 'Student Number';
+          break;
+        case 'faculty':
+          caption = 'Faculty Number';
+          break;
+        case 'org':
+          caption = 'Organization Code';
+          break;
+        default:
+          caption = 'Code';
+          break;
+      }
 
+      return caption;
+    }
+  },
   methods: {
+    moveForm: function (direction) {
+      alert(this.selectedRole);
+      if(direction == 'f') {
+        this.regStage++;
+      } else {
+        this.regStage--;
+      }
+    },
     submit() {
       this.form.post(this.route("register"), {
         onFinish: () => this.form.reset("password", "password_confirmation"),

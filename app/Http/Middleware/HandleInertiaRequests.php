@@ -40,6 +40,7 @@ class HandleInertiaRequests extends Middleware
             $userableName = is_null($request->user()->userable) ? null : explode("\\", $request->user()->userable_type)[2];
         }
         return array_merge(parent::share($request), [
+            'status' => session('status'),
             'auth' => [
                 'user' => $request->user(),
                 'userable_name' => $userableName,

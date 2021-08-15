@@ -12,18 +12,55 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Inertia\Inertia;
 use App\Models\Role;
+use App\Models\Organization;
+use App\Models\Student;
+use App\Models\Faculty;
 
 class RegisteredUserController extends Controller
 {
+    /**
+     * Display the Select Role view.
+     * 
+     * @return \Illuminate\View\View
+     */
+    public function selectRole()
+    {
+        return Inertia::render('Auth/RegisterSelectRole');
+    }
+
     /**
      * Display the registration view.
      *
      * @return \Illuminate\View\View
      */
-    public function create()
+    public function create(Request $request)
     {
+        $selectedRole = $request->query('selectedRole');
+        $userable = null;
+        switch ($selectedRole) {
+            case 'student':
+                $userable = Student::where('student_num', $request->query('code'))->first();
+                break;
+            case 'org':
+                $userable = Student::where('org_code', $request->query('code'))->first();
+                break;
+            case 'faculty':
+                $userable = Student::where('faculty_number', $request->query('code'))->first();
+                break;
+            default:
+            return redirect()->route('register.select');
+                break;
+        }
+
+        if(is_null($userable)) {
+            return redirect()->route('register.select')
+                ->with('status', 'The code you entered is invalid. Please try again or contact OSPA if you think this is a mistake.');
+        }
+
         $roles = Role::all();
         return Inertia::render('Auth/Register', [
+            'userable' => $userable,
+            'role' => $selectedRole,
             'roles' => $roles,
         ]);
     }

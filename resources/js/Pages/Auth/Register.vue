@@ -1,29 +1,17 @@
 <template>
   <div class="card shadow-sm w-75 px-3">
     <div class="card-body">
-      <!-- select role -->
-      <div
-        class="d-flex flex-row justify-content-center text-align-center"
-        v-if="regStage == 0"
-      >
-        <span class="h2">I am a/n... </span>
-        <select name="sel_role" class="form-control form-control-lg w-25" v-model="selectedRole" v-on:change="moveForm('f')">
-          <option value="student">Student</option>
-          <option value="org">Organization</option>
-          <option value="faculty">Faculty</option>
-        </select>
-      </div>
-      <!-- component for search unique code -->
-      <div
-        class="d-flex flex-row justify-content-center text-align-center"
-        v-if="regStage == 1"
-      >
-        <span class="h2">Please enter your {{ stageOneCaption }}: </span>
-      </div>
       <!-- reg form -->
       <breeze-validation-errors class="mb-3" />
-
-      <form @submit.prevent="submit" v-if="regStage == 2">
+      <div class="d-flex flex-row justify-content-center">
+        <span v-if="role == 'org'" class="h5 mr-2">Organization Name</span>
+        <span v-else class="h5 mr-2">Name:</span>
+        <span v-if="role == 'org'" class="h5">{{ userable.name }}</span>
+        <span v-else class="h5"
+          >{{ userable.first_name }} {{ userable.last_name }}</span
+        >
+      </div>
+      <form @submit.prevent="submit">
         <div class="form-group">
           <breeze-label for="role" value="Role" />
           <select class="form-control form-control-md" v-model="form.role">
@@ -135,12 +123,12 @@ export default {
 
   props: {
     roles: Object,
+    role: String,
+    userable: Object,
   },
 
   data() {
     return {
-      regStage: 0,
-      selectedRole: null,
       form: this.$inertia.form({
         role: null,
         username: "",
@@ -151,36 +139,7 @@ export default {
       }),
     };
   },
-  computed: {
-    stageOneCaption: function () {
-      var caption = null;
-      switch(this.selectedRole) {
-        case 'student':
-          caption = 'Student Number';
-          break;
-        case 'faculty':
-          caption = 'Faculty Number';
-          break;
-        case 'org':
-          caption = 'Organization Code';
-          break;
-        default:
-          caption = 'Code';
-          break;
-      }
-
-      return caption;
-    }
-  },
   methods: {
-    moveForm: function (direction) {
-      alert(this.selectedRole);
-      if(direction == 'f') {
-        this.regStage++;
-      } else {
-        this.regStage--;
-      }
-    },
     submit() {
       this.form.post(this.route("register"), {
         onFinish: () => this.form.reset("password", "password_confirmation"),

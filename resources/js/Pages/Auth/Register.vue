@@ -5,22 +5,14 @@
       <!-- reg form -->
       <breeze-validation-errors class="mb-3" />
       <div class="d-flex flex-row justify-content-center">
-        <span v-if="role == 'org'" class="h5 mr-2">Organization Name</span>
+        <span v-if="role.name == 'organization'" class="h5 mr-2">Organization Name</span>
         <span v-else class="h5 mr-2">Name:</span>
-        <span v-if="role == 'org'" class="h5">{{ userable.name }}</span>
+        <span v-if="role.name == 'organization'" class="h5">{{ userable.name }}</span>
         <span v-else class="h5"
           >{{ userable.first_name }} {{ userable.last_name }}</span
         >
       </div>
       <form @submit.prevent="submit">
-        <div class="form-group">
-          <breeze-label for="role" value="Role" />
-          <select class="form-control form-control-md" v-model="form.role">
-            <option v-for="role in roles" :key="role.id" :value="role.id">
-              {{ role.name }}
-            </option>
-          </select>
-        </div>
         <div class="form-group">
           <breeze-label for="email" value="Email" />
           <breeze-input id="email" type="email" v-model="form.email" required />
@@ -123,8 +115,7 @@ export default {
   },
 
   props: {
-    roles: Object,
-    role: String,
+    role: Object,
     userable: Object,
   },
 
@@ -132,6 +123,7 @@ export default {
     return {
       form: this.$inertia.form({
         role: null,
+        userable_id: null,
         username: "",
         email: "",
         password: "",
@@ -142,7 +134,13 @@ export default {
   },
   methods: {
     submit() {
-      this.form.post(this.route("register"), {
+      this.form
+      .transform(data => ({
+        ... data,
+        role: this.role.id,
+        userable_id: this.userable.id,
+      }))
+      .post(this.route("register"), {
         onFinish: () => this.form.reset("password", "password_confirmation"),
       });
     },

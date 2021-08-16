@@ -36,16 +36,20 @@ class RegisteredUserController extends Controller
     public function create(Request $request)
     {
         $selectedRole = $request->query('selectedRole');
+        $roleObject = null;
         $userable = null;
         switch ($selectedRole) {
             case 'student':
                 $userable = Student::where('student_num', $request->query('code'))->first();
+                $roleObject = Role::where('name', 'student')->first();
                 break;
             case 'org':
-                $userable = Student::where('org_code', $request->query('code'))->first();
+                $userable = Organization::where('org_code', $request->query('code'))->first();
+                $roleObject = Role::where('name', 'organization')->first();
                 break;
             case 'faculty':
-                $userable = Student::where('faculty_number', $request->query('code'))->first();
+                $userable = Faculty::where('faculty_number', $request->query('code'))->first();
+                $roleObject = Role::where('name', 'faculty')->first();
                 break;
             default:
             return redirect()->route('register.select');
@@ -60,8 +64,7 @@ class RegisteredUserController extends Controller
         $roles = Role::all();
         return Inertia::render('Auth/Register', [
             'userable' => $userable,
-            'role' => $selectedRole,
-            'roles' => $roles,
+            'role' => $roleObject,
         ]);
     }
 
@@ -86,14 +89,32 @@ class RegisteredUserController extends Controller
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
-
+        
+        // associate role
         $role = Role::find($request->role);
 
         $user->role()->associate($role);
 
-        $user->save();
+        // associate userable
+        $userable = null;
+        switch ($role->name) {
+            case 'student':
+                $userable = Student::find($request->userable_id);
+                
+                break;
+            case 'organization':
+                $userable = Organization::find($request->userable_id);
+                break;
+            case 'faculty':
+                $userable = Faculty::find($request->userable_id);
+                break;
+            default:
+            return redirect()->route('register.select');
+                break;
+        }
 
-        // TO DO associate userable
+        $user->userable()->associate($userable);
+        $user->save();
 
         event(new Registered($user));
 

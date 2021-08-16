@@ -20001,12 +20001,42 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-3a98b9d0");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<footer class=\"guest-footer text-white\" data-v-3a98b9d0><!-- Grid container --><div class=\"container-fluid p-4\" data-v-3a98b9d0><!-- Section: Text --><section class=\"mb-4\" data-v-3a98b9d0><div class=\"d-flex flex-row align-items-center\" data-v-3a98b9d0><img src=\"img/OSPA_Logo.png\" alt=\"OSPA Logo\" class=\"mr-2\" height=\"80\" data-v-3a98b9d0><div class=\"d-flex flex-column\" data-v-3a98b9d0><span data-v-3a98b9d0>Office of</span><span class=\"font-weight-bold\" data-v-3a98b9d0>Student Projects and Activities</span><span data-v-3a98b9d0>University of the Philippines Diliman</span></div></div></section><!-- Section: Text --><!-- Section: Links --><section class=\"\" data-v-3a98b9d0><!--Grid row--><div class=\"row\" data-v-3a98b9d0><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--></div><!--Grid row--></section><!-- Section: Links --></div><!-- Grid container --><!-- UP System Links and Copyright --><div class=\"d-flex flex-row justify-content-around p-3\" style=\"background-color:rgba(0, 0, 0, 0.2);\" data-v-3a98b9d0><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>University of the Philippines System</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Diliman</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Los Baños</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Manila</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Baguio</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Visayas</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Mindanao</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Cebu</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Open University</a><span data-v-3a98b9d0>© 2020 <a class=\"text-white\" href=\"https://ospa.upd.edu.ph/\" target=\"_blank\" data-v-3a98b9d0>Office of Student Projects and Activities</a></span></div><!-- UP System Links and Copyright --></footer>", 1);
+var _hoisted_1 = {
+  "class": "guest-footer text-white"
+};
+var _hoisted_2 = {
+  "class": "container-fluid p-4"
+};
+var _hoisted_3 = {
+  "class": "mb-4"
+};
+var _hoisted_4 = {
+  "class": "d-flex flex-row align-items-center"
+};
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "d-flex flex-column"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", null, "Office of"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", {
+  "class": "font-weight-bold"
+}, "Student Projects and Activities"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", null, "University of the Philippines Diliman")], -1
+/* HOISTED */
+);
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"\" data-v-3a98b9d0><!--Grid row--><div class=\"row\" data-v-3a98b9d0><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--><!--Grid column--><div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\" data-v-3a98b9d0><h5 class=\"text-uppercase\" data-v-3a98b9d0>Links</h5><ul class=\"list-unstyled mb-0\" data-v-3a98b9d0><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 1</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 2</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 3</a></li><li data-v-3a98b9d0><a href=\"#!\" class=\"text-white\" data-v-3a98b9d0>Link 4</a></li></ul></div><!--Grid column--></div><!--Grid row--></section>", 1);
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"d-flex flex-row justify-content-around p-3\" style=\"background-color:rgba(0, 0, 0, 0.2);\" data-v-3a98b9d0><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>University of the Philippines System</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Diliman</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Los Baños</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Manila</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Baguio</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Visayas</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Mindanao</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Cebu</a><a class=\"text-white\" href=\"https://mdbootstrap.com/\" data-v-3a98b9d0>Open University</a><span data-v-3a98b9d0>© 2020 <a class=\"text-white\" href=\"https://ospa.upd.edu.ph/\" target=\"_blank\" data-v-3a98b9d0>Office of Student Projects and Activities</a></span></div>", 1);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer "), _hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer ")], 2112
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("footer", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Grid container "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Section: Text "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+    src: _ctx.$page.props.logos_url.ospa_logo,
+    alt: "OSPA Logo",
+    "class": "mr-2",
+    height: "80"
+  }, null, 8
+  /* PROPS */
+  , ["src"]), _hoisted_5])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Section: Text "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Section: Links "), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Section: Links ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Grid container "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" UP System Links and Copyright "), _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" UP System Links and Copyright ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer ")], 2112
   /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */
   );
 });
@@ -20581,27 +20611,31 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = {
   "class": "\n      container\n      d-flex\n      flex-column\n      align-items-center\n      justify-content-center\n      centerbox-container\n    "
 };
-
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_2 = {
   "class": "\n        d-flex\n        flex-column\n        align-items-center\n        justify-content-center\n        pagename-container\n      "
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" title-container "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+};
+var _hoisted_3 = {
   "class": "\n          d-flex\n          flex-column\n          align-items-center\n          justify-content-center\n          title-container\n        "
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: "img/up-logo.png",
-  alt: "University of the Philippines seal",
-  "class": "mt-4 mb-4",
-  height: "100",
-  width: "100"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h1", {
+};
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h1", {
   "class": "mb-4"
-}, "Bukluran 4")])], -1
+}, "Bukluran 4", -1
 /* HOISTED */
 );
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_guest_footer = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("guest-footer");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" pagename-container "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" slot "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_guest_footer)], 64
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" pagename-container "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" title-container "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+    src: _ctx.$page.props.logos_url.up_logo,
+    alt: "University of the Philippines seal",
+    "class": "mt-4 mb-4",
+    height: "100",
+    width: "100"
+  }, null, 8
+  /* PROPS */
+  , ["src"]), _hoisted_4])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" slot "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_guest_footer)], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -20920,12 +20954,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "card shadow-sm w-50 px-3"
+  "class": "card shadow-sm w-50"
 };
-var _hoisted_2 = {
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "card-header"
+}, "Log In", -1
+/* HOISTED */
+);
+
+var _hoisted_3 = {
   "class": "card-body"
 };
-var _hoisted_3 = {
+var _hoisted_4 = {
   key: 0,
   "class": "alert alert-success mb-3 rounded-0",
   role: "alert"
@@ -20935,9 +20976,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_login_box = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("login-box");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_validation_errors, {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_validation_errors, {
     "class": "mb-3"
-  }), $props.status ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.status), 1
+  }), $props.status ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.status), 1
   /* TEXT */
   )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_login_box, {
     canResetPassword: this.canResetPassword
@@ -20962,32 +21003,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "card shadow-sm w-75 px-3"
+  "class": "card shadow-sm w-75"
 };
-var _hoisted_2 = {
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "card-header"
+}, "Register", -1
+/* HOISTED */
+);
+
+var _hoisted_3 = {
   "class": "card-body"
 };
-var _hoisted_3 = {
+var _hoisted_4 = {
   "class": "d-flex flex-row justify-content-center"
 };
-var _hoisted_4 = {
+var _hoisted_5 = {
   key: 0,
   "class": "h5 mr-2"
 };
-var _hoisted_5 = {
+var _hoisted_6 = {
   key: 1,
   "class": "h5 mr-2"
 };
-var _hoisted_6 = {
+var _hoisted_7 = {
   key: 2,
   "class": "h5"
 };
-var _hoisted_7 = {
+var _hoisted_8 = {
   key: 3,
   "class": "h5"
-};
-var _hoisted_8 = {
-  "class": "form-group"
 };
 var _hoisted_9 = {
   "class": "form-group"
@@ -21002,31 +21047,34 @@ var _hoisted_12 = {
   "class": "form-group"
 };
 var _hoisted_13 = {
-  key: 0,
   "class": "form-group"
 };
 var _hoisted_14 = {
-  "class": "custom-control custom-checkbox"
+  key: 0,
+  "class": "form-group"
 };
 var _hoisted_15 = {
+  "class": "custom-control custom-checkbox"
+};
+var _hoisted_16 = {
   "class": "custom-control-label",
   "for": "terms"
 };
 
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" I agree to the ");
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" I agree to the ");
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" and ");
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" and ");
 
-var _hoisted_18 = {
+var _hoisted_19 = {
   "class": "mb-0"
 };
-var _hoisted_19 = {
+var _hoisted_20 = {
   "class": "d-flex justify-content-end align-items-baseline"
 };
 
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Already registered? ");
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Already registered? ");
 
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Register ");
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Register ");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_breeze_validation_errors = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("breeze-validation-errors");
@@ -21041,17 +21089,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_breeze_button = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("breeze-button");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" reg form "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_validation_errors, {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" reg form "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_validation_errors, {
     "class": "mb-3"
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [$props.role == 'org' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("span", _hoisted_4, "Organization Name")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("span", _hoisted_5, "Name:")), $props.role == 'org' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("span", _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.userable.name), 1
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [$props.role == 'org' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("span", _hoisted_5, "Organization Name")) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("span", _hoisted_6, "Name:")), $props.role == 'org' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("span", _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.userable.name), 1
   /* TEXT */
-  )) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("span", _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.userable.first_name) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.userable.last_name), 1
+  )) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("span", _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.userable.first_name) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.userable.last_name), 1
   /* TEXT */
   ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", {
     onSubmit: _cache[7] || (_cache[7] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
       return $options.submit && $options.submit.apply($options, arguments);
     }, ["prevent"]))
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_label, {
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_label, {
     "for": "role",
     value: "Role"
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
@@ -21070,7 +21118,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* KEYED_FRAGMENT */
   ))], 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.form.role]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_label, {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.form.role]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_label, {
     "for": "email",
     value: "Email"
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_input, {
@@ -21083,7 +21131,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     required: ""
   }, null, 8
   /* PROPS */
-  , ["modelValue"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_label, {
+  , ["modelValue"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_label, {
     "for": "username",
     value: "Username"
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_input, {
@@ -21096,7 +21144,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     required: ""
   }, null, 8
   /* PROPS */
-  , ["modelValue"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_label, {
+  , ["modelValue"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_label, {
     "for": "password",
     value: "Password"
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_input, {
@@ -21110,7 +21158,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     autocomplete: "new-password"
   }, null, 8
   /* PROPS */
-  , ["modelValue"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_label, {
+  , ["modelValue"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_label, {
     "for": "password_confirmation",
     value: "Confirm Password"
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_input, {
@@ -21124,7 +21172,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     autocomplete: "new-password"
   }, null, 8
   /* PROPS */
-  , ["modelValue"])]), _ctx.$page.props.jetstream.hasTermsAndPrivacyPolicyFeature ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_checkbox, {
+  , ["modelValue"])]), _ctx.$page.props.jetstream.hasTermsAndPrivacyPolicyFeature ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_breeze_checkbox, {
     name: "terms",
     id: "terms",
     checked: $data.form.terms,
@@ -21133,22 +21181,22 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     })
   }, null, 8
   /* PROPS */
-  , ["checked"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", _hoisted_15, [_hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  , ["checked"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", _hoisted_16, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
     target: "_blank",
     href: _ctx.route('terms.show')
   }, "Terms of Service", 8
   /* PROPS */
-  , ["href"]), _hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  , ["href"]), _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
     target: "_blank",
     href: _ctx.route('policy.show')
   }, "Privacy Policy", 8
   /* PROPS */
-  , ["href"])])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
+  , ["href"])])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
     href: _ctx.route('login'),
     "class": "text-muted mr-3 text-decoration-none"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_20];
+      return [_hoisted_21];
     }),
     _: 1
     /* STABLE */
@@ -21162,7 +21210,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     disabled: $data.form.processing
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_21];
+      return [_hoisted_22];
     }),
     _: 1
     /* STABLE */
@@ -21190,22 +21238,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "card shadow-sm w-75 px-3"
+  "class": "card shadow-sm w-75"
 };
-var _hoisted_2 = {
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "card-header"
+}, "Register", -1
+/* HOISTED */
+);
+
+var _hoisted_3 = {
   "class": "card-body"
 };
-var _hoisted_3 = {
+var _hoisted_4 = {
   key: 0,
   "class": "alert alert-danger",
   role: "alert"
 };
-var _hoisted_4 = {
+var _hoisted_5 = {
   key: 1,
   "class": "d-flex flex-row justify-content-center text-align-center"
 };
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", {
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", {
   "class": "h3 mr-2 mb-0",
   style: {
     "line-height": "2"
@@ -21214,45 +21269,45 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
   value: "student"
 }, "Student", -1
 /* HOISTED */
 );
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
   value: "org"
 }, "Organization", -1
 /* HOISTED */
 );
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("option", {
   value: "faculty"
 }, "Faculty", -1
 /* HOISTED */
 );
 
-var _hoisted_9 = {
+var _hoisted_10 = {
   key: 2,
   "class": "d-flex flex-row justify-content-center text-align-center"
 };
-var _hoisted_10 = {
+var _hoisted_11 = {
   "class": "h4 mr-2 mb-0",
   style: {
     "line-height": "2"
   }
 };
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Find ");
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Find ");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_breeze_input = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("breeze-input");
 
   var _component_breeze_button = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("breeze-button");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [_ctx.$page.props.status ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.status), 1
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [_ctx.$page.props.status ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.status), 1
   /* TEXT */
-  )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" select role "), $data.regStage == 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
+  )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" select role "), $data.regStage == 0 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_5, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("select", {
     name: "sel_role",
     "class": "form-control form-control-lg w-25",
     "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
@@ -21261,9 +21316,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onChange: _cache[2] || (_cache[2] = function ($event) {
       return $options.moveForm('f');
     })
-  }, [_hoisted_6, _hoisted_7, _hoisted_8], 544
+  }, [_hoisted_7, _hoisted_8, _hoisted_9], 544
   /* HYDRATE_EVENTS, NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.filterForm.selectedRole]])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" component for search unique code "), $data.regStage == 1 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", _hoisted_10, "Please enter your " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($options.stageOneCaption) + ": ", 1
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.filterForm.selectedRole]])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" component for search unique code "), $data.regStage == 1 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", _hoisted_11, "Please enter your " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($options.stageOneCaption) + ": ", 1
   /* TEXT */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", {
     "class": "form-inline",
@@ -21287,7 +21342,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     disabled: $data.filterForm.processing
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_11];
+      return [_hoisted_12];
     }),
     _: 1
     /* STABLE */

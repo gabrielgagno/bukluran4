@@ -1,5 +1,6 @@
 <template>
-  <div class="card shadow-sm w-75 px-3">
+  <div class="card shadow-sm w-75">
+    <div class="card-header">Register</div>
     <div class="card-body">
       <!-- reg form -->
       <breeze-validation-errors class="mb-3" />

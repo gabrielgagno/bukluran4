@@ -1,5 +1,6 @@
 <template>
-  <div class="card shadow-sm w-50 px-3">
+  <div class="card shadow-sm w-50">
+    <div class="card-header">Log In</div>
     <div class="card-body">
 
     <breeze-validation-errors class="mb-3" />

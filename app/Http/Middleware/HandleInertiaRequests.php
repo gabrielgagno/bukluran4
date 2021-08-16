@@ -40,6 +40,10 @@ class HandleInertiaRequests extends Middleware
             $userableName = is_null($request->user()->userable) ? null : explode("\\", $request->user()->userable_type)[2];
         }
         return array_merge(parent::share($request), [
+            'logos_url' => [
+                'up_logo' => asset('img/up-logo.png'),
+                'ospa_logo' => asset('img/OSPA_Logo.png'),
+            ],
             'status' => session('status'),
             'auth' => [
                 'user' => $request->user(),

@@ -7,7 +7,7 @@
       <section class="mb-4">
         <div class="d-flex flex-row align-items-center">
           <img
-            src="img/OSPA_Logo.png"
+            :src="$page.props.logos_url.ospa_logo"
             alt="OSPA Logo"
             class="mr-2"
             height="80"

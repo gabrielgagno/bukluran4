@@ -1,5 +1,6 @@
 <template>
-  <div class="card shadow-sm w-75 px-3">
+  <div class="card shadow-sm w-75">
+    <div class="card-header">Register</div>
     <div class="card-body">
       <div class="alert alert-danger" role="alert" v-if="$page.props.status">
         {{$page.props.status}}

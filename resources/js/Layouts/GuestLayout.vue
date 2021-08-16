@@ -30,7 +30,7 @@
         "
       >
         <img
-          src="img/up-logo.png"
+          :src="$page.props.logos_url.up_logo"
           alt="University of the Philippines seal"
           class="mt-4 mb-4"
           height="100"

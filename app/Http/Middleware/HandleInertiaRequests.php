@@ -44,7 +44,6 @@ class HandleInertiaRequests extends Middleware
                 'up_logo' => asset('img/up-logo.png'),
                 'ospa_logo' => asset('img/OSPA_Logo.png'),
             ],
-            'status' => session('status'),
             'auth' => [
                 'user' => $request->user(),
                 'userable_name' => $userableName,

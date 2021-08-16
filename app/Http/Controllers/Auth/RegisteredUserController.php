@@ -25,7 +25,9 @@ class RegisteredUserController extends Controller
      */
     public function selectRole()
     {
-        return Inertia::render('Auth/RegisterSelectRole');
+        return Inertia::render('Auth/RegisterSelectRole', [
+            'status' => session('status'),
+        ]);
     }
 
     /**

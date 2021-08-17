@@ -2,6 +2,8 @@
 
 namespace Database\Factories;
 
+use App\Models\Faculty;
+use App\Models\Organization;
 use App\Models\Student;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -51,6 +53,8 @@ class UserFactory extends Factory
         return $this->state(function (array $attributes) {
             return [
                 'role_id' => 1,
+                'userable_id' => Faculty::factory(),
+                'userable_type' => Faculty::class,
             ];
         });
     }
@@ -71,6 +75,8 @@ class UserFactory extends Factory
         return $this->state(function (array $attributes) {
             return [
                 'role_id' => 3,
+                'userable_id' => Organization::factory(),
+                'userable_type' => Organization::class,
             ];
         });
     }

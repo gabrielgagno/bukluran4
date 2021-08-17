@@ -22,7 +22,12 @@ class StudentFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'student_num' => $this->faker->numberBetween(2000, 2021)."-".$this->faker->numerify('#####'),
+            'first_name' => $this->faker->firstName(),
+            'middle_name' => $this->faker->lastName(),
+            'last_name' => $this->faker->lastName(),
+            'contact_num' => $this->faker->mobileNumber(),
+            'college_id' => rand(1, 25),
         ];
     }
 }

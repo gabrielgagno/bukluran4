@@ -17,6 +17,13 @@ class DatabaseSeeder extends Seeder
             RolesTableSeeder::class,
             OrgTypeSeeder::class,
             CollegeSeeder::class,
+            
+            // unregistered users
+            StudentSeeder::class,
+            OrganizationSeeder::class,
+            FacultySeeder::class,
+
+            //registered users
             UsersTableSeeder::class,
         ]);
     }
